@@ -14,6 +14,10 @@ namespace TeduShop.Model.Models
         [Column(Order = 2)]
         public int ProductID { set; get; }
 
+        public int ProducCate { get; set; }
+
+        public ProductName {set;get;}
+
         public int Quantitty { set; get; }
 
         [ForeignKey("OrderID")]
